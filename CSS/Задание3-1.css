@@ -26,10 +26,11 @@
 }
 .second-column {
     width: 70%;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 .third-column {
     width: 35%;
+    padding: 20px 0 0 30px;
 }
 .name {
     font-weight: bold;
@@ -98,10 +99,6 @@
 .first-border img {
     height: 300px;
 }
-.news-section li {
-    border: 1px solid #dad8d8;
-    padding: 0;
-}
 .post-preview-text {
     text-decoration: none;
     color: black;
@@ -120,4 +117,10 @@ a:hover {
 }
 .sign {
     text-decoration: none;
+}
+.color-of-link {
+    color: grey;
+}
+.each-section {
+    border: 1px solid #dad8d8;
 }
