@@ -70,32 +70,11 @@
     text-align: justify;
     padding: 0 20px 0;
 }
-.second-article-text {
-    text-align: justify;
-    padding: 0 20px 0;
-}
-.first-article-button {
-    padding-left: 20px;
-}
-.second-article-button {
-    padding-left: 20px;
-}
-.first-article-button button {
-    height: 30px;
-    background-color: #170fba;
-    color: aliceblue;
-    border: none;
-    text-align: center;
-}
-.second-article-button button {
-    height: 30px;
-    background-color: #170fba;
-    color: aliceblue;
-    border: none;
-    text-align: center;
-}
 .news-section p {
     padding: 0 20px 0;
     border: 1px solid #dad8d8;
     margin: 0;
+}
+.first-border img {
+    height: 300px;
 }
