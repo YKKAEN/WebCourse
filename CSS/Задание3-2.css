@@ -17,22 +17,21 @@
 .contents {
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
     width: 71.9%;
     margin: auto;
 }
 .first-column {
-    border: 1px solid black;
     width: 35%;
     padding: 20px 20px 0 0;
 }
 .second-column {
-    border: 1px solid black;
     width: 70%;
+    padding-left: 10px;
+    padding-top: 20px;
 }
 .third-column {
-    border: 1px solid black;
     width: 35%;
+    padding: 20px 0 0 30px;
 }
 .name {
     font-weight: bold;
@@ -70,11 +69,66 @@
     text-align: justify;
     padding: 0 20px 0;
 }
-.news-section p {
+.second-article-text {
+    text-align: justify;
     padding: 0 20px 0;
-    border: 1px solid #dad8d8;
-    margin: 0;
+}
+.first-article-button {
+    padding-left: 20px;
+}
+.second-article-button {
+    padding-left: 20px;
+}
+.first-article-button button {
+    height: 30px;
+    background-color: #170fba;
+    color: aliceblue;
+    border: none;
+    text-align: center;
+}
+.second-article-button button {
+    height: 30px;
+    background-color: #170fba;
+    color: aliceblue;
+    border: none;
+    text-align: center;
+}
+.news-section {
+    list-style-type: none;
+    font-size: 10pt;
 }
 .first-border img {
     height: 300px;
+}
+.post-preview-text {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+.profile-preview {
+    text-decoration: none;
+    color: black;
+}
+.edit {
+    text-decoration: none;
+    color: black;
+}
+.sign {
+    text-decoration: none;
+}
+.color-of-link {
+    color: grey;
+}
+.each-section {
+    border: 1px solid #dad8d8;
+}
+.friends-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.profile-one {
+    width: 25%;
 }
